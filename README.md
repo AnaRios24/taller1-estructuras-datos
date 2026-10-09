@@ -18,7 +18,7 @@
 
 ---
 
-## 📌 Descripción del problema
+##  Descripción del problema
 
 Ante el aumento del flujo de carga en el puerto de Buenaventura, se necesita un módulo ligero en C que gestione el patio de almacenamiento temporal y la asignación rápida de contenedores en las bahías de despacho.
 
@@ -28,7 +28,7 @@ El programa es interactivo por consola y permite:
 - Almacenar hasta **5 contenedores activos** en la zona de despacho rápido.
 - **Retirar**, **buscar** y **listar** los contenedores del patio.
 
-## 💡 Decisión de diseño: una pila (LIFO)
+##  Decisión de diseño: una pila (LIFO)
 
 El patio se modela como una **pila**: el último contenedor que entra es el primero que sale. Es lo más natural en un patio, porque los contenedores se apilan y para sacar el de abajo habría que mover los de encima.
 
